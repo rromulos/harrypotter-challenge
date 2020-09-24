@@ -77,5 +77,4 @@ class CharacterController extends Controller
     {
         return $this->characterService->delete($id);
     }
-
 }

@@ -1,3 +1,6 @@
+## Language
+PHP (7.4) with Laravel 7
+
 ## How to set up laradock
 
 1. Create a folder named app 

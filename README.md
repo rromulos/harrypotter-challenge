@@ -3,6 +3,8 @@ PHP (7.4) with Laravel 7
 
 ## How to set up laradock
 
+**Note: Make sure to have docker installed**
+
 1. Create a folder named app 
 2. Access the app folder
 ```

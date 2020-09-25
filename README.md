@@ -143,3 +143,37 @@ id           => validates if the parameter "id" is a valid one
 ``` 
 id           => validates if the parameter "id" is a valid one
 ``` 
+
+## How to execute PHPUnit Tests
+
+1. Open the terminal, go to the laradock folder
+``` 
+docker exec -it hp_workspace_1 /bin/bash
+    
+su laradock
+cd app
+php artisan test
+``` 
+**Result**
+``` 
+   PASS  Tests\Unit\ExampleTest
+  ✓ basic test
+
+   PASS  Tests\Feature\CharacterTest
+  ✓ example
+  ✓ create
+  ✓ try to create with invalid house
+  ✓ delete
+  ✓ update
+  ✓ get by valid house
+  ✓ get by in valid house
+  ✓ get all
+  ✓ get house from potter api
+
+   PASS  Tests\Feature\ExampleTest
+  ✓ basic test
+
+  Tests:  11 passed
+  Time:   5.02s
+``` 
+
